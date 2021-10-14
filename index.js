@@ -1,6 +1,6 @@
 function initialize() {
     microsoftTeams.initialize(() => {}, [
-        "https://nerocui.github.io/fhl-teams-vid",
+        "https://andy447.github.io/fhl-teams-vid/",
     ]);//change to https://fhl.local:3000 for local dev
     microsoftTeams.appInitialization.notifySuccess();
     registerHandlers();
